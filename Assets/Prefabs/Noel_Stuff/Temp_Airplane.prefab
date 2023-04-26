@@ -599,7 +599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4684444242066465991}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -13.41, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.02, y: 0.82, z: 1}
   m_Children: []
   m_Father: {fileID: 4684444242125148518}
@@ -672,7 +672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4684444242083899010
 Transform:
   m_ObjectHideFlags: 0
@@ -682,7 +682,7 @@ Transform:
   m_GameObject: {fileID: 4684444242083899011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 7.18, z: 0}
-  m_LocalScale: {x: 2.8, y: 1, z: 1}
+  m_LocalScale: {x: 2.7, y: 0.9, z: 1}
   m_Children: []
   m_Father: {fileID: 4684444243616363560}
   m_RootOrder: 5
@@ -726,7 +726,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -3
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
   m_FlipX: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 4684444242112775865}
   - component: {fileID: 4684444242112775864}
   m_Layer: 0
-  m_Name: DoorB Spot
+  m_Name: Back Door Spot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1076,7 +1076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684444242125148518}
   m_Layer: 0
-  m_Name: Middle BWing
+  m_Name: Task_Middle_BWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1090,7 +1090,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4684444242125148519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -13.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4684444242066465990}
@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 4684444242137583575}
   - component: {fileID: 4684444242137583574}
   m_Layer: 0
-  m_Name: DoorA
+  m_Name: Task_FrontDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1562,7 +1562,7 @@ GameObject:
   - component: {fileID: 4684444242218253439}
   - component: {fileID: 4684444242218253438}
   m_Layer: 0
-  m_Name: Flapper B
+  m_Name: Task_FlapperB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2382,7 +2382,7 @@ GameObject:
   - component: {fileID: 4684444242476685197}
   - component: {fileID: 4684444242476685196}
   m_Layer: 0
-  m_Name: Right BWing
+  m_Name: Task_Right_BWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2754,7 +2754,7 @@ GameObject:
   - component: {fileID: 4684444242607414034}
   - component: {fileID: 4684444242607414037}
   m_Layer: 0
-  m_Name: Left BWing
+  m_Name: Task_Left_BWing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3411,7 +3411,7 @@ GameObject:
   - component: {fileID: 4684444242901020040}
   - component: {fileID: 4684444242901020043}
   m_Layer: 0
-  m_Name: Window
+  m_Name: Task_Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3738,7 +3738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684444243008813019}
   m_Layer: 0
-  m_Name: Jet Engine C
+  m_Name: Task_Jet_EngineC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4264,7 +4264,7 @@ GameObject:
   - component: {fileID: 4684444243097522634}
   - component: {fileID: 4684444243097522637}
   m_Layer: 0
-  m_Name: DoorB
+  m_Name: Task_BackDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4875,7 +4875,7 @@ GameObject:
   - component: {fileID: 4684444243290549810}
   - component: {fileID: 4684444243290549813}
   m_Layer: 0
-  m_Name: Flapper D
+  m_Name: Task_FlapperD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5121,7 +5121,7 @@ GameObject:
   - component: {fileID: 4684444243356833079}
   - component: {fileID: 4684444243356833078}
   m_Layer: 0
-  m_Name: Flapper C
+  m_Name: Task_FlapperC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5695,7 +5695,7 @@ GameObject:
   - component: {fileID: 4684444243509267287}
   - component: {fileID: 4684444243509267286}
   m_Layer: 0
-  m_Name: Flapper A
+  m_Name: Task_FlapperA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5997,7 +5997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4684444243576202060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -14.172999, z: 0}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
   m_LocalScale: {x: 0.42, y: 1.56, z: 1}
   m_Children: []
   m_Father: {fileID: 4684444242125148518}
@@ -6396,7 +6396,7 @@ GameObject:
   - component: {fileID: 4684444243791358810}
   - component: {fileID: 4684444243791358813}
   m_Layer: 0
-  m_Name: DoorA Spot
+  m_Name: Front Door Spot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6641,7 +6641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684444243879937716}
   m_Layer: 0
-  m_Name: Jet Engine D
+  m_Name: Task_Jet_EngineD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6756,7 +6756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684444243893364958}
   m_Layer: 0
-  m_Name: Jet Engine A
+  m_Name: Task_Jet_EngineA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6823,7 +6823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684444243987958012}
   m_Layer: 0
-  m_Name: Jet Engine B
+  m_Name: Task_Jet_EngineB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
